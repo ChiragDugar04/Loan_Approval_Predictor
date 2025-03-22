@@ -7,26 +7,22 @@ This project predicts **loan approval** and assesses **credit risk** using machi
 
 ## 📂 Project Structure
 
-📁 LOAN_APPROVAL_PREDICTOR
-├── 📂 Data # Contains raw & processed datasets
-│ ├── loan.csv # Raw dataset
-│ ├── processed_loan.csv # Cleaned dataset
-│
-├── 📂 models # Saved machine learning models
-│ ├── lgbm_credit_risk.pkl # Trained LightGBM model
-│
-├── 📂 notebooks # Jupyter notebooks for experimentation
-│ ├── 01_data_exploration.ipynb # Exploratory Data Analysis (EDA)
-│ ├── 02_data_preprocessing.ipynb # Data preprocessing & feature engineering
-│ ├── model_training.ipynb # Model training & evaluation
-│
-├── 📂 src # Source code for deployment & utilities
-│ ├── app.py # Streamlit app for user interface
-│ ├── utils.py # Helper functions for data processing
-│
-├── 📜 .gitignore # Files to exclude from Git tracking
-├── 📜 README.md # Project documentation
-├── 📜 requirements.txt # List of dependencies
+📂 LOAN_APPROVAL_PREDICTOR
+├── 📂 Data                 # Contains raw & processed datasets
+│   ├── loan.csv            # Raw dataset
+│   ├── processed_loan.csv   # Cleaned dataset
+├── 📂 models               # Saved machine learning models
+│   ├── lgbm_credit_risk.pkl # Trained LightGBM model
+├── 📂 notebooks            # Jupyter notebooks for experimentation
+│   ├── 01_data_exploration.ipynb  # Exploratory Data Analysis (EDA)
+│   ├── 02_data_preprocessing.ipynb # Data preprocessing & feature engineering
+│   ├── model_training.ipynb  # Model training & evaluation
+├── 📂 src                  # Source code for deployment & utilities
+│   ├── app.py              # Streamlit app for user interface
+│   ├── utils.py            # Helper functions for data processing
+├── 📜 .gitignore           # Files to exclude from Git tracking
+├── 📜 README.md            # Project documentation
+├── 📜 requirements.txt     # List of dependencies
 
 
 ---
@@ -55,13 +51,13 @@ This project predicts **loan approval** and assesses **credit risk** using machi
 
 ## 🏆 **Machine Learning Models**
 The following models were tested for credit risk analysis:
-✔ Logistic Regression  
-✔ Decision Trees 
-✔ Gradient Boosting 
-✔ CatBoost 
-✔ AdaBoost
-✔ XGBoost  
-✔ LightGBM (Final Model)  
+✔ Logistic Regression    
+✔ Decision Trees   
+✔ Gradient Boosting    
+✔ CatBoost     
+✔ AdaBoost    
+✔ XGBoost      
+✔ LightGBM (Final Model)    
 
 📌 **Evaluation Metrics**:
 ✔ Accuracy  
