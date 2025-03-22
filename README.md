@@ -30,10 +30,11 @@ PNEUMONIA_DETECTION_PROJECT/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
-
+```
 ---
 
-## 📊 **Dataset & Features**
+
+##📊 **Dataset & Features**
 - **loan.csv**: Raw dataset with applicant details.
 - **processed_loan.csv**: Preprocessed dataset used for training.
 - **Key Features:**
@@ -84,8 +85,8 @@ The trained model is deployed using:
 ```bash
 git clone https://github.com/ChiragDugar04/Loan-Approval-Predictor.git
 cd Loan-Approval-Predictor
-
-
+```
+---
 
 ## 🤖 Future Improvements
 - ✨ Implement Grad-CAM to visualize CNN attention on the images.
