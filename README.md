@@ -5,7 +5,6 @@ This project predicts **loan approval** and assesses **credit risk** using machi
 
 ---
 
-## 📂 Project Structure
 # 💂️ Project Structure
 ```
 PNEUMONIA_DETECTION_PROJECT/
