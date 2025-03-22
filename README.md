@@ -6,24 +6,31 @@ This project predicts **loan approval** and assesses **credit risk** using machi
 ---
 
 ## 📂 Project Structure
-
-📂 LOAN_APPROVAL_PREDICTOR
-├── 📂 Data                 # Contains raw & processed datasets
-│   ├── loan.csv            # Raw dataset
-│   ├── processed_loan.csv   # Cleaned dataset
-├── 📂 models               # Saved machine learning models
-│   ├── lgbm_credit_risk.pkl # Trained LightGBM model
-├── 📂 notebooks            # Jupyter notebooks for experimentation
+# 💂️ Project Structure
+```
+PNEUMONIA_DETECTION_PROJECT/
+│
+│
+├── Data/
+│   └── loan.csv
+│   └── processed_loan.csv 
+│
+├── models/
+│   ├── lgbm_credit_risk.pkl
+│   ├── training_feature.npy
+│
+├── Notebooks/
 │   ├── 01_data_exploration.ipynb  # Exploratory Data Analysis (EDA)
 │   ├── 02_data_preprocessing.ipynb # Data preprocessing & feature engineering
-│   ├── model_training.ipynb  # Model training & evaluation
+│   ├── model_training and testing.ipynb 
+│
 ├── 📂 src                  # Source code for deployment & utilities
 │   ├── app.py              # Streamlit app for user interface
-│   ├── utils.py            # Helper functions for data processing
-├── 📜 .gitignore           # Files to exclude from Git tracking
-├── 📜 README.md            # Project documentation
-├── 📜 requirements.txt     # List of dependencies
-
+│   ├── utils.py
+|
+├── .gitignore
+├── README.md
+└── requirements.txt
 
 ---
 
@@ -74,7 +81,6 @@ The trained model is deployed using:
 
 ---
 
-## 📌 **Installation & Usage**
 ### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/ChiragDugar04/Loan-Approval-Predictor.git
@@ -82,13 +88,12 @@ cd Loan-Approval-Predictor
 
 
 
-📜 Future Improvements
+## 🤖 Future Improvements
+- ✨ Implement Grad-CAM to visualize CNN attention on the images.
+- ✨ Train on a larger dataset for more generalizable predictions.
+- ✨ Create a REST API for model inference.
 
-✔ Improve model accuracy with hyperparameter tuning
-✔ Add explainability using SHAP
-✔ Deploy as a web service using AWS/GCP
-✔ Implement additional risk metrics
+---
 
-📜 License
-
-This project is under the MIT License.
+## 📝 License
+This project is open-source and available under the **MIT License**.
