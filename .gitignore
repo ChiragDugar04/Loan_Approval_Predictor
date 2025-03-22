@@ -1,0 +1,21 @@
+# Ignore system files
+__pycache__/
+.DS_Store
+
+# Ignore virtual environment
+venv/
+env/
+
+
+
+# Ignore model artifacts
+*.pkl
+*.joblib
+models/
+
+# Ignore logs & cache
+*.log
+*.ipynb_checkpoints
+
+# Ignore environment variables (if using)
+.env
